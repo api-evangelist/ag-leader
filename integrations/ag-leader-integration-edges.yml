@@ -1,0 +1,62 @@
+generated: '2026-10-18'
+method: searched
+source:
+- https://zapier.com/apps/ag-leader/integrations
+- https://n8n.io/integrations/ag-leader/
+- https://composio.dev/toolkits/ag-leader
+- https://monid.ai/tools/ag-leader
+checked:
+- https://aggateway.org/AboutUs/Members.aspx
+- https://agrirouter.com/en/solutions
+- https://climate.com/en-us/partners.html
+- https://composio.dev/toolkits/ag-leader
+- https://monid.ai/tools/ag-leader
+- https://n8n.io/integrations/ag-leader/
+- https://www.agleader.com/developers/
+- https://www.make.com/en/integrations/ag-leader
+- https://zapier.com/apps/ag-leader/integrations
+- https://www.aef-online.org/membership/memberlist.html
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: AgGateway (ADAPT / AgGateway standards)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  evidence: https://aggateway.org/AboutUs/Members.aspx
+  category: farm data standards
+  channel: standard-directory
+  relationship: standard-participant
+  contract_reference:
+    register: AgGateway member list (aggateway.org/AboutUs/Members.aspx)
+    spec_file: null
+    standard: AgGateway (ADAPT, ISOXML/SPADE/PAIL, CIDX)
+    role: aggateway-member
+    registered_name: Ag Leader Technology
+    website: https://www.agleader.com/
+    matched_domain: agleader.com
+    matched_by: domain
+    signal_note: 'participation only: membership is not conformance'
+    detected_by: sweep-agriculture-food.py
+    detected: '2026-10-19'
+  detected_by: sweep-agriculture-food.py
+  first_seen: '2026-10-19'
+- partner_name: Climate FieldView (connected partners)
+  partner: climate-fieldview
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://climate.com/en-us/partners/ag-leader-agfiniti---sms.html
+  mirror_of: climate-fieldview/integrations/climate-fieldview-integration-edges.yml
+  apps:
+  - Ag Leader AgFiniti
+  detected: '2026-10-19'
+  detected_by: sweep-agriculture-food.py
+templates: []
+note: No integration partners or marketplace listings found. Developer page only shows contact form for integration
+  requests. Zapier and Make.com pages either JavaScript shells or bot-challenge protected.
