@@ -1,23 +1,109 @@
 aid: ag-leader
+
 name: Ag Leader
-description: 'Ag Leader is a company surfaced via the API Evangelist harvest backlog (source: kin-score-markets)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Ag Leader Technology is an American precision agriculture company founded in 1992 by Al Myers that makes displays and data management (InCommand Go, AgFiniti cloud, SMS software), GPS receivers and machine guidance (SteerCommand Z2, SteadySteer), planter, applicator and combine yield-monitoring technology, plus precision turf equipment. For third-party developers it provides file components (DLLs) for reading and writing its proprietary file formats and an AgFiniti API for transferring files to and from its cloud, with access requested via its Developers page.
+
 url: https://raw.githubusercontent.com/api-evangelist/ag-leader/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:kin-score-markets
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-18 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-18'
+
 modified: '2026-10-18'
+
 tags:
 - Company
-apis: []
+- Agriculture
+- Precision Agriculture
+- Farm Data
+- GPS Guidance
+- Agricultural Equipment
+- Cloud File Transfer
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.agleader.com/wp-content/uploads/2024/04/Ag-Leader-Logo1-1.png
+
 common:
+- type: LLMsTxt
+  url: llms/ag-leader-llms.txt
+- type: ChangeLog
+  url: changelog/ag-leader-changelog.yml
+- type: Conventions
+  url: conventions/ag-leader-conventions.yml
+- type: Authentication
+  url: authentication/ag-leader-authentication.yml
+- type: WellKnown
+  url: well-known/ag-leader-well-known.yml
+- type: Hosts
+  url: hosts/ag-leader-hosts.yml
+- type: GettingStarted
+  url: https://portal.agleader.com/community/s/article/1356
+- type: Documentation
+  url: https://dev.agfiniti.com/
+- type: DomainSecurity
+  url: security/ag-leader-domain-security.yml
 - type: Website
   url: https://agleader.com
+- type: DeveloperPortal
+  url: https://www.agleader.com/developers/
+- type: Blog
+  url: https://www.agleader.com/blog/category/articles/
+- type: ChangeLog
+  url: https://www.agleader.com/blog/category/whats-new/
+- type: Support
+  url: https://www.agleader.com/support/
+- type: PrivacyPolicy
+  url: https://www.agleader.com/privacy-policy/
+- type: Login
+  url: https://www.agfiniti.com/Account/Login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ag-leader-technology
+
+apis:
+- aid: ag-leader:agfiniti-api
+  name: AgFiniti API
+  description: Ag Leader provides an AgFiniti API for transfer of files to and from its cloud-based AgFiniti system, alongside file components (DLLs) for reading and writing its proprietary file formats; access is requested through the contact form on the Developers page and no public reference or contract is published.
+  humanURL: https://www.agleader.com/developers/
+  tags:
+  - Farm Data
+  - Cloud File Transfer
+  properties:
+  - type: Documentation
+    url: https://www.agleader.com/developers/
+  - type: Login
+    url: https://www.agfiniti.com/Account/Login
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website agleader.com serves Ag Leader Technology home page (open, 200); developer page describes DLL file components and an AgFiniti API with contact-form access; no public docs/TOS/GitHub/Pricing found.
+  evidence:
+  - url: https://agleader.com
+    status: 200
+  - url: https://www.agleader.com/developers/
+    status: 200
+  - url: https://www.agleader.com/why-ag-leader/
+    status: 200
+  - url: https://www.agleader.com/wp-content/uploads/2024/04/Ag-Leader-Logo1-1.png
+    status: 200
+  - url: https://www.agfiniti.com/Account/Login
+    status: 200
+x-enrichment:
+  date: '2026-10-18'
+  status: enriched
+  artifacts_added: 22
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=deepseek,regulatory=anthropic

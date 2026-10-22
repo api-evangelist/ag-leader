@@ -1,0 +1,17 @@
+name: Ag Leader MCP server
+type: MCPServer
+generated: '2026-10-18'
+method: none
+source: https://www.agleader.com/developers/
+status: none
+description: >-
+  No official Ag Leader / AgFiniti MCP server was found. A web search for an Ag Leader or
+  AgFiniti MCP server returned no relevant results, and the provider's own llms.txt
+  (https://www.agleader.com/llms.txt, HTTP 200) does not mention MCP. No candidate tool list
+  is derived because Ag Leader publishes no OpenAPI contract: the AgFiniti API and file
+  components are available only by request via the Developers page.
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []

@@ -1,0 +1,21 @@
+generated: '2026-10-18'
+method: searched
+probe: true
+source: https://www.agleader.com/privacy-policy/
+signals:
+  age_assurance:
+    url: https://www.agleader.com/privacy-policy/
+    section: "Children’s Online Privacy Protection Act"
+    evidence:
+    - source: https://www.agleader.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: >-
+        We are in compliance with the requirements of the Children’s Online Privacy Protection Act (COPPA).
+        We do not collect any information from anyone under 13 years of age. Our website, products, and
+        services are all directed to people who are at least 13 years or older.
+    note: >-
+      A published age-directed statement (COPPA, 13+) — a policy declaration of the intended audience, not
+      an age-verification or age-signal mechanism. No other signal (data subject requests, subprocessors,
+      retention, residency, GPC, incident notification) is addressed on the only legal page found; the policy
+      mentions "trusted third parties" without naming any, which is not a subprocessor list.

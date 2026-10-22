@@ -1,0 +1,18 @@
+generated: '2026-10-18'
+method: searched
+source: https://www.agleader.com/developers/
+auth_style: contact-based
+idempotency:
+  coverage: na
+  reason: No public API documentation available to assess idempotency mechanisms
+pagination: unknown
+field_expansion: unknown
+metadata: unknown
+request_id_tracing: unknown
+versioning: unknown
+error_envelope: unknown
+rate_limit_signaling: unknown
+reversibility:
+  coverage: na
+  reason: No public API documentation available to assess reversibility mechanisms
+note: No public API documentation available to derive conventions from. The AgFiniti API is only accessible via contact form request.

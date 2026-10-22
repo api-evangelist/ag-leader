@@ -1,0 +1,13 @@
+generated: '2026-10-18'
+method: searched
+source: https://www.agleader.com/blog/category/whats-new/
+scheme: blog-posts
+current_version: unknown
+entries:
+  - version: unknown
+    date: '2026-10-18'
+    breaking: false
+    highlights:
+      - Product announcements and updates published as blog posts
+      - No API-specific changelog found
+note: Company publishes "What's New" blog posts about product announcements, but no API-specific changelog or version history found.

@@ -1,0 +1,17 @@
+generated: '2026-10-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: agleader.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 13 17:52:17 2027 GMT
+  hsts: true
+  hsts_max_age: 15768000
+domains:
+- domain: agleader.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

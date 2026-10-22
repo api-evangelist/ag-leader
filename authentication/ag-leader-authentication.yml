@@ -1,0 +1,10 @@
+generated: '2026-10-18'
+method: searched
+source: https://www.agleader.com/developers/
+docs: https://www.agleader.com/developers/
+schemes:
+  - type: unknown
+    name: Contact-based access
+    description: Access to AgFiniti API is requested through contact form on developers page
+    in: form
+note: No public authentication documentation. Developer page states "access is requested through the contact form on the Developers page".
