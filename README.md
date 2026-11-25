@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ag Leader is a company surfaced via the API Evangelist harvest backlog (source: kin-score-markets) and added to the network as a stub for full-pipeline profiling.
-- https://agleader.com
+Ag Leader Technology is an American precision agriculture company founded in 1992 by Al Myers that makes displays and data management (InCommand Go, AgFiniti cloud, SMS software), GPS receivers and machine guidance (SteerCommand Z2, SteadySteer), planter, applicator and combine yield-monitoring technology, plus precision turf equipment. For third-party developers it provides file components (DLLs) for reading and writing its proprietary file formats and an AgFiniti API for transferring files to and from its cloud, with access requested via its Developers page.
+
+**Areas:** Company · Agriculture · Precision Agriculture · Farm Data · GPS Guidance · Agricultural Equipment · Cloud File Transfer
+
+## Ag Leader on APIs.io
+
+Everything profiled for Ag Leader is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ag-leader/](https://apis.io/providers/ag-leader/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [AgFiniti API](https://apis.io/apis/ag-leader/agfiniti-api/) — Ag Leader provides an AgFiniti API for transfer of files to and from its cloud-based AgFiniti system, alongside file components (DLLs) for reading and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ag Leader Authentication](https://apis.io/security/ag-leader/ag-leader-authentication/)
+- [Ag Leader Domain Security](https://apis.io/security/ag-leader/ag-leader-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ag Leader Scopes](https://apis.io/scopes/ag-leader/ag-leader-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ag Leader Plans Pricing](https://apis.io/plans/ag-leader/ag-leader-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ag Leader Rate Limits](https://apis.io/rate-limits/ag-leader/ag-leader-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agleader.com)
+- [Documentation](https://dev.agfiniti.com/)
+- [Getting started](https://portal.agleader.com/community/s/article/1356)
+- [Support](https://www.agleader.com/support/)
+- [Changelog](https://www.agleader.com/blog/category/whats-new/)
+- [Blog](https://www.agleader.com/blog/category/articles/)
+- [Privacy policy](https://www.agleader.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 23.6** — emerging · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 23.4 |
+
+**Agent readiness 17.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ag-leader/](https://apis.io/providers/ag-leader/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ag Leader: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ag-leader/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
